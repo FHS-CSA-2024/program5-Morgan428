@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class Program5{
     
-  public void Car(String n, int mi, int ga){
+  public Car(String n, int mi, int ga){
   }
   public static void main(String[] args){
     Scanner s = new Scanner(System.in);
     System.out.println("Enter name of car:");
-    Car c = new Car("n", 0, 0);
+    Car c1 = new Car("n", 0, 0);
     c1.n = s.nextLine();
     System.out.println("Enter miles for car:");
     c1.mi = s.nextInt();
