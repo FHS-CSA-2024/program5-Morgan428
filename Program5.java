@@ -6,7 +6,7 @@ public class Program5{
   public static void main(String[] args){
     Scanner s = new Scanner(system.in);
     System.out.println("Enter name of car:");
-    Car c1 = new Car(n, 0, 0);
+    c1 = new Car("n", 0, 0);
     c1.n = s.nextLine();
     System.out.println("Enter miles for car:");
     c1.mi = s.nextInt();
@@ -14,7 +14,7 @@ public class Program5{
     c1.ga = s.nextInt();
 
     System.out.println("Enter name of car:");
-    Car c2 = new Car(n, 0, 0);
+    Car c2 = new Car("n", 0, 0);
     c2.n = s.nextLine();
     System.out.println("Enter miles for car:");
     c2.mi = s.nextInt();
@@ -22,7 +22,7 @@ public class Program5{
     c2.ga = s.nextInt();
     
     System.out.println("Enter name of car:");
-    Car c3 = new Car(n, 0, 0);
+    Car c3 = new Car("n", 0, 0);
     c3.n = s.nextLine();
     System.out.println("Enter miles for car:");
     c3.mi = s.nextInt();
@@ -30,7 +30,7 @@ public class Program5{
     c3.ga = s.nextInt();
     
     System.out.println("Enter name of car:");
-    Car c4 = new Car(n, 0, 0);
+    Car c4 = new Car("n", 0, 0);
     c4.n = s.nextLine();
     System.out.println("Enter miles for car:");
     c4.mi = s.nextInt();
